@@ -25,6 +25,9 @@ npm install
 npm start
 ```
 
+I built this project using Node v19.6.0. I added a `.node-version` file to the repo so if you use a versioning tool like `fnm` or `nodenv` it will
+be set automatically for you.
+
 You can also get a production build by running:
 ```bash
 npm run build
