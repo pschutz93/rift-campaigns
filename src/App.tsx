@@ -1,24 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { Typography } from "@mui/material";
+import { Campaigns } from "./Campaigns";
+import { sample_data } from "./data";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Typography variant={"h1"} fontSize="60px">
+        Rift Email Campaigns
+      </Typography>
+      {/* I pass in sample_data here in lieu of fetching data from server */}
+      <Campaigns campaigns={sample_data} />
     </div>
   );
 }
