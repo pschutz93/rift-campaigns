@@ -18,7 +18,6 @@ be a reasonable alternative for a take-home exercise.
 I have the repo configured to run locally. To see it in action, clone the repo, and run the following commands in the 
 root directory:
 
-```bash
 Run:
 ```bash
 npm install
